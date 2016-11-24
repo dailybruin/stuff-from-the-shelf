@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <title>Stuff from the Shelf</title>
+        <link href="Styling/External/CSS/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Arvo:700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="Styling/Internal/style.css">
+       
+    </head>
+    <body>
+
+        <video autoplay loop muted poster="Assets/overall/background2.jpg" id="background">
+        <source src="Assets/MultiMedia/A&E_Desk.mp4" type="video/mp4">
+        </video>
+        <div class="infobox">
+        <img id= "infobox1" class= "imageInfobox" src="Assets/Infoboxes/article1.jpg">
+        <img id= "infobox2" class= "imageInfobox" src="Assets/Infoboxes/article2.jpg">
+        <img id= "infobox3" class= "imageInfobox" src="Assets/Infoboxes/article3.jpg">
+        <img id= "infobox4" class= "imageInfobox" src="Assets/Infoboxes/article4.jpg">
+        <img id= "infobox5" class= "imageInfobox" src="Assets/Infoboxes/article5.jpg">
+        <img id= "infobox6" class= "imageInfobox" src="Assets/Infoboxes/article6.jpg">
+        <img id= "infobox7" class= "imageInfobox" src="Assets/Infoboxes/article7.jpg">
+        <img id= "infobox8" class= "imageInfobox" src="Assets/Infoboxes/article8.jpg">
+        <img id= "infobox9" class= "imageInfobox" src="Assets/Infoboxes/article9.jpg">
+        <img id= "infobox10" class= "imageInfobox" src="Assets/Infoboxes/article10.jpg">
+        <img id= "infobox11" class= "imageInfobox" src="Assets/Infoboxes/article11.jpg">
+        <img id= "infobox12" class= "imageInfobox" src="Assets/Infoboxes/article12.jpg">
+
+        </div>
+        <div class="playlistWrapper">
+        <!-- put playlists in here -->
+        <div class= "foldBar">
+        </div>
+        <iframe class = "playlistEmbed2" id = "article1playlist" src="https://embed.spotify.com/?uri=spotify:album:3bhHgItJ6Tv6Nx5f6bb24p" width="220" height="300" frameborder="0" allowtransparency="true" padding-left= "0"margin-left= "0"></iframe>
+        <iframe class= "playlistEmbed2" id = "article2playlist" src="https://embed.spotify.com/?uri=spotify:album:2vH1WebYYv3cIdnnkXjczO" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article3playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A3lVFWxhn8vylHZCpLTcp8k" width="220" height="300" frameborder="0" allowtransparency="true"></iframe> 
+        <iframe class= "playlistEmbed2" id = "article4playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A3pT0u9N7NSi7OQ8m19kl9Z" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article5playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A7mfSdEokzQjI5AxwrRauZv" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article6playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A2lCzYWKmQLGDoUZwrxCAuz" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article7playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A08fkw9uDP2KET6cPIl74Xo" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article8playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A16mFJtVBLtnm7FMH0FMQLp" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article9playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1GRLIEVZuKD8SeAGryqHl0" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article10playlist"  src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1Mq8EWtelbwo1RoxHLZFAT" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article11playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1o5RXe7If0GfevKuCaSIiC" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class= "playlistEmbed2" id = "article12playlist" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A3DGQ1iZ9XKUQxAUWjfC34w" width="220" height="300" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+        <div class="landingPage">
+        <div class= "header">
+            Stuff from the Shelf
+        </div>    
+        <div id= "navbar_container">
+        <nav class= "nav" id= "navClass">
+        <ul id= "navUl">
+        <li id= "article1"><a href="#">An Argument With Myself</a></li>
+        <li id= "article2"><a href="#">Like You Mean It</a></li>
+        <li id ="article3"><a href="#">Observator</a></li>
+        <li id ="article4"><a href="#">Come Alive</a></li>
+        <li id="article5"><a href="#">Epic</a></li>
+        <li id="article6"><a href="#">Grown Unknown</a></li>
+        <li id="article7"><a href="#">Infinite Arms</a></li>
+        <li id="article8"><a href="#">In Light</a></li>
+        <li id="article9"><a href="#">Never Out of Time</a></li>
+        <li id="article10"><a href="#">Onwards to the Wall</a></li>
+        <li id="article11"><a href="#">The Family Tree: The Roots</a></li>
+        <li id="article12"><a href="#">good kid, m.A.A.d city</a></li>
+
+        </ul>
+        </nav>
+        </div>
+        <div id = "info"> 
+            <p id= "infoFont">A quick peek behind the Arts & Entertainment desk reveals a clutter of CDs, DVDs, books and various press copies sent to us by generous promoters. Most of it, unfortunately, has never gone on to receive attention by our staff – until now. Stuff from the Shelf is a feature that explores the stacks of forgotten media, hoping to find a rare gem in the rough.</p>
+            <i> Webpage - Aalhad Patankar, Reviews- Daily Bruin A&E </i>
+        </div> 
+        
+        </div>
+        
+        <div class="article">
+        <div class = "container-fluid"> 
+        <div class ="row-fluid">
+        <div class ="col-md-12 articleHeader">
+        <a href="#" class="open btn" id= "openBtn">Back to shelf</a>
+        </div>
+        </div>
+        <div class = "row">
+        <div class ="col-md-12">
+        <div id= "Headline"> </div>
+        </div>
+        </div>
+        <div class = "row imageAndPlaylist">
+        <div class = "col-md-12" id="albumCover">
+        </div>
+        </div>
+        <div id= "articleContent"> 
+        </div>
+        </div>
+        </div>
+        
+
+      
+
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        
+      
+            
+            var windowH = $(window).height(),
+                documElem = $(document),
+                landingPage = $('.landingPage'),
+                article = $('.article'),
+                articleContent= $('#articleContent'),
+                Headline= $('#Headline'),
+                albumCover= $('#albumCover'),
+                playlist= $('#playlist'),
+                btns = $('.btn'),
+                infoboxW= $('#infobox').width()
+                animSpeed = 500;
+                var currentPlaylist = $('#article1playlist');
+                var currentInfobox = $('#infobx1');
+                var foldBarHidden= false;
+    
+                
+
+            var article1Headline= "An Argument With Myself",
+                article2Headline= "Like You Mean It",
+                article3Headline = "Observator",
+                article4Headline = "Come Alive",
+                article5Headline = "Epic",
+                article6Headline = "Grown Unknown",
+                article7Headline = "Infinite Arms",
+                article8Headline = "In Light",
+                article9Headline = "Never Out of Time",
+                article10Headline = "Onwards to the Wall",
+                article11Headline = "The Family Tree: The Roots";
+                article12Headline = "good kid, m.A.A.d city";
+            landingPage.css({
+                height: windowH + 'px',
+                top: 0 + 'px'
+            });
+
+            article.css({
+                top: windowH + 'px',
+            });
+            function hidePlaylist() {
+                        currentPlaylist.css('visibility','hidden');
+            }
+           
+           $('#article1').on('click', function(e) {
+                    // currentPlaylist= $('#article1playlist');
+                    //playlist.load("Assets/Multimedia/article1playlist.html");
+                    currentPlaylist.css('visibility','hidden');
+                    currentPlaylist= $('#article1playlist');
+                    currentPlaylist.css('visibility','visible');
+
+                    currentInfobox.css('visibility', 'hidden');
+                    currentInfobox = $('#infobox1');
+                    currentInfobox.css('visibility','visible');
+                    Headline.html(article1Headline);
+                    albumCover.load("Assets/Art/article1image.html");
+                    articleContent.load("Assets/articleText/article1.html");
+                    landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                    article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                    $(".infobox").animate({left: 0}, 500);
+                    $(".playlistWrapper").animate({right: '20px'}, 500);
+                    
+                    
+           });
+           $('#article2').on('click', function(e) {
+                    //playlist.load("Assets/Multimedia/article2playlist.html");
+                    // currentPlaylist= $('#article2playlist');
+                    //currentPlaylist.css('visibility','visible');
+                    currentPlaylist.css('visibility','hidden');
+                    currentPlaylist= $('#article2playlist');
+                    currentPlaylist.css('visibility','visible');
+                    currentInfobox.css('visibility', 'hidden');
+                    currentInfobox = $('#infobox2');
+                    currentInfobox.css('visibility','visible');
+                    Headline.html(article2Headline);
+                    albumCover.load("Assets/Art/article2image.html");
+                    articleContent.load("Assets/articleText/article2.html");
+                    landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                    article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                    $(".infobox").animate({left: 0}, 500);
+                    $(".playlistWrapper").animate({right: '20px'}, 500);
+                    
+           });
+            $('#article3').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article3playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox3');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article3Headline);
+                            albumCover.load("Assets/Art/article3image.html");
+                            articleContent.load("Assets/articleText/article3.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article4').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article4playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox4');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article4Headline);
+                            albumCover.load("Assets/Art/article4image.html");
+                            articleContent.load("Assets/articleText/article4.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article5').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article5playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox5');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article5Headline);
+                            albumCover.load("Assets/Art/article5image.html");
+                            articleContent.load("Assets/articleText/article5.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article6').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article6playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox6');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article6Headline);
+                            albumCover.load("Assets/Art/article6image.html");
+                            articleContent.load("Assets/articleText/article6.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article7').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article7playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox7');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article7Headline);
+                            albumCover.load("Assets/Art/article7image.html");
+                            articleContent.load("Assets/articleText/article7.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article8').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article8playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox8');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article8Headline);
+                            albumCover.load("Assets/Art/article8image.html");
+                            articleContent.load("Assets/articleText/article8.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article9').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article9playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox9');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article9Headline);
+                            albumCover.load("Assets/Art/article9image.html");
+                            articleContent.load("Assets/articleText/article9.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article10').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article10playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox10');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article10Headline);
+                            albumCover.load("Assets/Art/article10image.html");
+                            articleContent.load("Assets/articleText/article10.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article11').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article11playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox11');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article11Headline);
+                            albumCover.load("Assets/Art/article11image.html");
+                            articleContent.load("Assets/articleText/article11.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+            $('#article12').on('click', function(e) {
+                            currentPlaylist.css('visibility','hidden');
+                            currentPlaylist= $('#article12playlist');
+                            currentPlaylist.css('visibility','visible');
+                            currentInfobox.css('visibility', 'hidden');
+                            currentInfobox = $('#infobox12');
+                            currentInfobox.css('visibility','visible');
+                            Headline.html(article12Headline);
+                            albumCover.load("Assets/Art/article12image.html");
+                            articleContent.load("Assets/articleText/article12.html");
+                            landingPage.animate({'top': -windowH + 'px'}, {duration: animSpeed, queue: false});
+                            article.animate({'top': 0},{duration: animSpeed, queue: false} );
+                            $(".infobox").animate({left: 0}, 500);
+                            $(".playlistWrapper").animate({right: '20px'}, 500);
+                            
+                   });
+
+        $('.foldBar').on('click', function(e) {
+                if ( foldBarHidden == false ) {
+                    $('.playlistWrapper').animate({width: '20px'},{duration:500});
+                    $('.playlistEmbed2').animate({width: '0px'},{duration: 500});
+                    
+                    foldBarHidden= true;
+                }
+                else{
+                    $('.playlistWrapper').animate({width: '240px'},{queue: true, duration:500});
+                     $('.playlistEmbed2').animate({height: '300px'},{queue: true, duration: 500});
+                    $('.playlistEmbed2').animate({width: '220px'},{queue: true, duration: 500});
+                      
+                    foldBarHidden= false;
+
+                }
+                e.preventDefault();
+            });
+
+
+        btns.on('click', function(e) {
+                if ( $(this).hasClass('open') ) {
+                    article.animate({'top': windowH + 'px'}, {duration: animSpeed, queue: false});
+                    landingPage.animate({'top': 0}, {duration: animSpeed, queue: false});
+                    $(".infobox").animate({left: '-200px'},{duration: 500});
+                    $(".playlistWrapper").animate({right: '-240px'},{duration: 500});
+                    if (foldBarHidden == true) {
+                    $('.playlistWrapper').animate({width: '240px'},{queue: true, duration:500});
+                     $('.playlistEmbed2').animate({height: '300px'},{queue: true, duration: 500});
+                    $('.playlistEmbed2').animate({width: '220px'},{queue: true, duration: 500});
+
+                    foldBarHidden= false;
+
+                }
+                }
+                e.preventDefault();
+            });
+        
+    </script>
+    </body>
+</html>
